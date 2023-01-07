@@ -1,0 +1,83 @@
+/*body*/
+.base {
+  display: flex;
+  flex-flow: column;
+  min-height: 200vh;
+}
+/*шапка страницы*/
+.header {
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: content;
+  text-align: center;
+  font-size: 28px;
+  background-image: url("/assets/sneg-kartina-gori.1920x1200.jpg");
+  min-height: 250px;
+
+  padding: 30px;
+}
+/*main*/
+.menu {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(231, 217, 247);
+}
+/*article*/
+.property {
+  flex-grow: 1;
+}
+.section1 {
+  padding: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+.div1 {
+  display: flex;
+  justify-content: space-around;
+}
+.section2 {
+  border: 1px solid rgb(0, 0, 0);
+  margin: 30px;
+  font-size: 18px;
+  padding: 5px;
+  text-align: left;
+}
+img {
+  width: 600px;
+}
+.section3 {
+  border: 1px solid rgb(0, 0, 0);
+  margin: 30px;
+  font-size: 18px;
+  padding: 5px;
+  text-align: left;
+}
+.section4 {
+  margin: 80px;
+  text-align: left;
+  font-size: 18px;
+  justify-content: center;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px;
+}
+/*aside*/
+.right {
+  border: 1px solid rgb(0, 0, 0);
+  width: 30vw;
+  font-size: 20px;
+}
+/*footer*/
+.end {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  font-size: 18px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: content;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(252, 232, 202);
+}
